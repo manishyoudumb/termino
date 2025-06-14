@@ -1,0 +1,16 @@
+[package]
+name = "termino"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tui = { version = "0.19", features = ["crossterm"] }
+crossterm = "0.27"
+tokio = { version = "1", features = ["full"] }
+webrtc = "0.6.0"
+ipfs-api = "0.14.0"
+ring = "0.17.0"
+openssl = { version = "0.10", features = ["vendored"] }
+libp2p = { version = "0.53.1", features = ["full"] }
+futures = "0.3"
+clap = { version = "4", features = ["derive"] }
